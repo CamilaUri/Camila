@@ -1,4 +1,4 @@
-class Nadador
+class Nadador:
    def__Init__(sel,nombre,apellido,especialidad,marca):
         self.nombre=nombre
         self.apellido=apellido
@@ -20,7 +20,7 @@ class Nadador
    	   runturn self.marca
 
 
-   def turnoentrenamiento(self)
+   def turnoentrenamiento(self):
        self.hora= int(input("ingrese hora de entrenamiento"))
 
 
@@ -33,11 +33,11 @@ class Nadador
        	  pass
 
 
-   def nivelNadador(self)
+   def nivelNadador(self):
        self.nivel=int(input("ingrese nivel de natacion de nadador"))
 
 
-      if self.nivel > 4
+      if self.nivel > 4:
           print("el nadador pertenece al rango federado")
 
 
@@ -55,6 +55,8 @@ nombre= raw_input("por favor,ingrese nombre del nadador")
 apellido= raw_input("por favor,ingrese el apellido del nadador")
 especialidad= raw_input("por favor,ingrese la especialidad del nadador")
 marca= input("por favor ingrese la marca del nadador ")
+
+
 n = Nadador(nombre,apellido,especialidad,marca)
 n.registroNadador()
 n.turnoentrenamiento()

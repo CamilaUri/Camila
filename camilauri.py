@@ -8,16 +8,16 @@ class Nadador:
 
    #metodos 
    def getNombre(self):
-   	   runturn self.nombre
+   	   return self.nombre
 
    def getApellido(self):
-   	   runturn self.apellido
+   	   return self.apellido
    	   
    def getEspecialidad(self):
-   	   runturn self.especialidad
+   	   return self.especialidad
 
    def getMarca(self):
-   	   runturn self.marca
+   	   return self.marca
 
 
    def turnoentrenamiento(self):

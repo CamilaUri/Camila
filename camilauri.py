@@ -1,5 +1,5 @@
 class Nadador:
-   def__Init__(sel,nombre,apellido,especialidad,marca):
+   def__Init__(self,nombre,apellido,especialidad,marca):
         self.nombre=nombre
         self.apellido=apellido
         self.especialidad=especialidad

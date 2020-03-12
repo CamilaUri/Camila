@@ -23,7 +23,7 @@ def BuscarUusarios(correo):
 	Camila.close()
 	for Pop in Jop:
 		if (Pop == 'Correo: '+correo+'\n'): 
-			print('El Correo Ingresa Ya Existe:"ERROR"')
+			print('El Correo Ingresado Ya Existe:"ERROR"')
 			return False
 
 Exit1=False
@@ -69,7 +69,7 @@ while Exit1== False:
 				if SeccionI == True:
 					print('Haz iniciado sesion correctamente!')
 					while salida==False:
-						print('Calcladora')
+						print('Calculadora')
 						print('1-Sumar:')
 						print('2-Restar:')
 						print('3-Multiplicar:')

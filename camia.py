@@ -67,7 +67,7 @@ while Exit1== False:
 						salida = False
 						SeccionI = True
 				if SeccionI == True:
-					print('Haz iniciado sesion correctamente!')
+					print('Has iniciado sesion correctamente!')
 					while salida==False:
 						print('Calculadora')
 						print('1-Sumar:')
